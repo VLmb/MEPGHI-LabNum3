@@ -239,3 +239,18 @@ int* DequeToArray(Deque* deque){
     }
     return array;
 }
+
+void PrintDeque(Deque* deq){
+    if (!IsEmpty(deq)){
+        Element* el = deq->begin;
+        do{
+            printf("%d  ", el->value);
+            el = el->next;
+        } while(el != NULL);
+    }
+    else{
+        printf("Deque is empty :(");
+    }
+    printf("\n");
+    return;
+}
