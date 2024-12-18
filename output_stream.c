@@ -22,6 +22,7 @@ void WriteToFile(ApartmentBuilding *buildings, int n, char* filename) {
     if (filename == NULL){
         FILE* file = stdout;
         for (int i = 0; i < n; i++) {
+                fprint(file, "Building number %d\n", i);
                 fprintf(file, "Name of building company: %s\n", buildings[i].Name_of_building_company);
                 fprintf(file, "Area: %s\n", buildings[i].Area);
                 fprintf(file, "Type of building: %s\n", TypeOfBuildingToString(buildings[i].type));
@@ -59,6 +60,7 @@ void WriteToFile(ApartmentBuilding *buildings, int n, char* filename) {
 
         else if (strcmp(extention, ".txt") == 0){
             for (int i = 0; i < n; i++) {
+                fprint(file, "Building number %d\n", i);
                 fprintf(file, "Name of building company: %s\n", buildings[i].Name_of_building_company);
                 fprintf(file, "Area: %s\n", buildings[i].Area);
                 fprintf(file, "Type of building: %s\n", TypeOfBuildingToString(buildings[i].type));
