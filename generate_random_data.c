@@ -22,11 +22,10 @@ typedef struct {
 
 } ApartmentBuilding;
 
-
 void GenerateString(char *str, size_t len) {
     char Up_alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     char Low_alphabet[] = " abc defghijk lmnopqrst uvwxyz";
-    int count = len % 10 + rand() % (len - 10);
+    int count = 5 + rand() % (len - 10);
     for (size_t i = 0; i < count; ++i) {
         if (i == 0 || (i > 0 && str[i-1] == ' ')){
             str[i] = Up_alphabet[rand() % (sizeof(Up_alphabet) - 1)];
@@ -38,14 +37,25 @@ void GenerateString(char *str, size_t len) {
     str[count] = '\0';
 }
 
-int main(){
-    srand(time(NULL));
-    char str[100];
-    for (int i = 0; i < 10; ++i){
-        GenerateString(str, 50);
-        printf("%s\n", str);
+ApartmentBuilding* GenerateData(int n){
+    ApartmentBuilding* buildings = malloc(sizeof(ApartmentBuilding) * n);
+    for(int i = 0; i < n; ++i){
+        GenerateString(buildings[i].Name_of_building_company, 30);
+        GenerateString(buildings[i].Area, 30);
+        enum TypeOfBuilding building_types[] = {PANEL, BRICK, MONOLITHIC};
+        buildings[i].type = building_types[rand() % 3];
+        buildings[i].year = 1960 + rand() % 64;
+        buildings[i].chute = rand() % 2;
+        buildings[i].amount_of_apartment = 200 + rand() % 200;
+        buildings[i].amount_of_floors = 10 + rand() % 30;
+        buildings[i].average_area = 35.0 + (double)rand() / RAND_MAX * 120.0;
     }
-    char str1[30];
-    GenerateString(str1, 30);
-    printf("i - %s\n", str1);
+    return buildings;
 }
+
+// int main(){
+
+//     ApartmentBuilding* houses = GenerateData(10);
+    
+//     return 0;
+// }
