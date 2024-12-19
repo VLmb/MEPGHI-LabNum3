@@ -104,10 +104,10 @@ void WriteToFileTable(ApartmentBuilding *buildings, int n, char* filename) {
     }
 }
 
-int main(){
-    int n = 10;
-    ApartmentBuilding* houses = GenerateData(n);
-    WriteToFileTable(houses, n, NULL);
+// int main(){
+//     int n = 10;
+//     ApartmentBuilding* houses = GenerateData(n);
+//     WriteToFileTable(houses, n, "test.csv");
 
-    return 0;
-}
+//     return 0;
+// }
