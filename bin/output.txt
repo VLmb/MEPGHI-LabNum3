@@ -1,0 +1,90 @@
+Name of building company: H
+Area: Gz Mptlddaxajv
+Type of building: MONOLITHIC
+Year: 1977
+Chute: No
+Amount of apartments: 391
+Amount of floors: 13
+Average area: 49.29
+
+Name of building company: Gtswgdoejphto
+Area: Fu Vbcclsa Eoltxxq 
+Type of building: PANEL
+Year: 1929
+Chute: No
+Amount of apartments: 316
+Amount of floors: 44
+Average area: 116.26
+
+Name of building company: Cn
+Area: 
+Type of building: MONOLITHIC
+Year: 1914
+Chute: No
+Amount of apartments: 246
+Amount of floors: 14
+Average area: 93.19
+
+Name of building company: Irescgh I
+Area: Krnwjyuhw Zygk
+Type of building: PANEL
+Year: 1941
+Chute: Yes
+Amount of apartments: 315
+Amount of floors: 48
+Average area: 143.61
+
+Name of building company: Yxw 
+Area: Ddlt F
+Type of building: MONOLITHIC
+Year: 1973
+Chute: Yes
+Amount of apartments: 312
+Amount of floors: 35
+Average area: 83.67
+
+Name of building company: U
+Area: Pm Btris Eixjfx
+Type of building: BRICK
+Year: 1937
+Chute: Yes
+Amount of apartments: 383
+Amount of floors: 34
+Average area: 67.63
+
+Name of building company: Ijpbnwicg
+Area: 
+Type of building: MONOLITHIC
+Year: 1912
+Chute: Yes
+Amount of apartments: 210
+Amount of floors: 48
+Average area: 136.17
+
+Name of building company: Ucvsbrawliesphp N
+Area: Bqpg Sfog A Xs
+Type of building: PANEL
+Year: 2017
+Chute: Yes
+Amount of apartments: 314
+Amount of floors: 38
+Average area: 62.89
+
+Name of building company: Frzqwyclyuzqbmv
+Area: R B Ng Qp Kgj
+Type of building: MONOLITHIC
+Year: 1948
+Chute: Yes
+Amount of apartments: 357
+Amount of floors: 41
+Average area: 121.51
+
+Name of building company: Ugziogjmynsbubmpwt
+Area: Z Vkue
+Type of building: MONOLITHIC
+Year: 2023
+Chute: No
+Amount of apartments: 251
+Amount of floors: 30
+Average area: 55.87
+

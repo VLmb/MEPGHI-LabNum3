@@ -1,0 +1,11 @@
+Num Name of company      Area                 Type         Year  Chute  Amount of apartments  Amount of floors  Average area 
+1   Uewk S Qr            Mwymsipvbl Od        MONOLITHIC   2022  NO     377                   35                79.56        
+2   Awr Beqlsu Uv        Vakumuerrezp         PANEL        1996  NO     281                   35                151.20       
+3   Ah Vrvbbd Ltx        A Pfni Qy            MONOLITHIC   1999  YES    352                   28                112.88       
+4   Uerwzsd              Qe Fmzo Gl           PANEL        2006  YES    203                   26                138.91       
+5   Osxzh                Bs Emnunxrcb         PANEL        1980  NO     200                   33                102.57       
+6   Zujmv                U Nybvh              MONOLITHIC   1984  YES    211                   22                90.11        
+7   Pl Ck                Zxjyylbru            BRICK        1998  NO     316                   31                89.98        
+8   Colhkueiz Oxyo       Wtpuevi              MONOLITHIC   1993  NO     215                   30                67.07        
+9   X Vyrjpcq            Aexnaivn             PANEL        1984  NO     292                   38                37.38        
+10  Ggbrhoyw Az          Ivammjggsf Z         BRICK        2015  NO     330                   17                134.62       
